@@ -1,0 +1,67 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+
+body {
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+
+    background-color: #242424;
+    font-family: sans-serif;
+    padding: 60px;
+
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+ input {
+    margin: 5px 5px;
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+    text-align: left;
+} 
+
+ button {
+    height: 35px;
+    width: 250px;
+    margin: 5px 5px;
+    margin-left: 20%;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    text-align: center;
+} 
+
+ button:hover {
+    background-color: #333;
+    color: skyblue;
+} 
+
+.p {
+    text-align: center;
+}
+
+.img {
+    margin-left: 25%
+}
